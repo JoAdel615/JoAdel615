@@ -43,24 +43,6 @@ Validation: JSON Schema
 Metrics: Prometheus (for performance tracking)
 Logging: Python’s logging module with structured outputs
 
-Directory Structure
-json_management_service/
-│
-├── src/
-│   ├── api/                    # FastAPI application and routes
-│   │   └── main.py
-│   ├── crud/                   # Core CRUD operations
-│   │   ├── crud_handler.py
-│   │   ├── audit_logger.py
-│   ├── external/               # External API integrations
-│   │   └── external_api_handler.py
-│   ├── database/               # Database and versioning logic
-│   │   ├── schema_versioner.py
-│   └── utils/                  # Observability and utility functions
-│       ├── observability.py
-│       └── error_handler.py
-└── tests/                      # Unit and integration tests
-
 Getting Started
 Prerequisites
 Ensure the following tools are installed on your system:
