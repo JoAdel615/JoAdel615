@@ -1,0 +1,1 @@
+# Extract and preserve schema logic
